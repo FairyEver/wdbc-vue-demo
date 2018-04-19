@@ -75,5 +75,14 @@
         </router-link>
       </li>
     </ul>
+    <p>vue-plugin demo:</p>
+    <ul>
+      <li>
+        <router-link
+          :to="{name: 'page-8-vue-plugin'}">
+          page-8-vue-plugin
+        </router-link>
+      </li>
+    </ul>
   </div>
 </template>
