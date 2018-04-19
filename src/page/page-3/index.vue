@@ -5,8 +5,6 @@
     <div style="border: 1px solid #333;">
       <router-view></router-view>
     </div>
-    <p>
-      <router-link :to="{name: 'index'}">Index</router-link>
-    </p>
+    <BackIndex></BackIndex>
   </div>
 </template>

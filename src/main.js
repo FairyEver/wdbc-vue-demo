@@ -6,6 +6,9 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+// 全局注册组件
+Vue.component('BackIndex', () => import('@/components/BackIndex/index.vue'))
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

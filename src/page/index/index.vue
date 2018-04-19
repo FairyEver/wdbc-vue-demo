@@ -37,7 +37,7 @@
       <li>
         <router-link
           :to="{name: 'page-4'}">
-          page-4
+          page-4 [now add a component]
         </router-link>
       </li>
       <li>
@@ -46,6 +46,15 @@
           @click="$router.push({name: 'page-1'})">
           @click="$router.push({name: 'page-1'})"
         </span>
+      </li>
+    </ul>
+    <p>component demo:</p>
+    <ul>
+      <li>
+        <router-link
+          :to="{name: 'page-5'}">
+          page-5
+        </router-link>
       </li>
     </ul>
   </div>
