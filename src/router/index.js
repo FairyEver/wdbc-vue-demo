@@ -51,6 +51,11 @@ export default new Router({
       path: '/page-8-vue-plugin',
       name: 'page-8-vue-plugin',
       component: () => import('@/page/page-8-vue-plugin/index.vue')
+    },
+    {
+      path: '/page-9-js-plugin',
+      name: 'page-9-js-plugin',
+      component: () => import('@/page/page-9-js-plugin/index.vue')
     }
   ]
 })

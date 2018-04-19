@@ -84,5 +84,14 @@
         </router-link>
       </li>
     </ul>
+    <p>js-plugin demo:</p>
+    <ul>
+      <li>
+        <router-link
+          :to="{name: 'page-9-js-plugin'}">
+          page-9-js-plugin
+        </router-link>
+      </li>
+    </ul>
   </div>
 </template>
