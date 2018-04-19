@@ -41,6 +41,11 @@ export default new Router({
       path: '/page-6-element',
       name: 'page-6-element',
       component: () => import('@/page/page-6-element/index.vue')
+    },
+    {
+      path: '/page-7-vuex',
+      name: 'page-7-vuex',
+      component: () => import('@/page/page-7-vuex/index.vue')
     }
   ]
 })

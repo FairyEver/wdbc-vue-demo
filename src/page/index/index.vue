@@ -66,5 +66,14 @@
         </router-link>
       </li>
     </ul>
+    <p>vuex demo:</p>
+    <ul>
+      <li>
+        <router-link
+          :to="{name: 'page-7-vuex'}">
+          page-7-vuex
+        </router-link>
+      </li>
+    </ul>
   </div>
 </template>
