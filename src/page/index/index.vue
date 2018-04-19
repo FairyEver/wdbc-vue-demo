@@ -57,5 +57,14 @@
         </router-link>
       </li>
     </ul>
+    <p>element demo:</p>
+    <ul>
+      <li>
+        <router-link
+          :to="{name: 'page-6-element'}">
+          page-6-element
+        </router-link>
+      </li>
+    </ul>
   </div>
 </template>
