@@ -11,7 +11,7 @@ import swal from 'sweetalert'
 export default {
   methods: {
     swal (text) {
-      swal ({text})
+      swal({text})
     }
   }
 }
